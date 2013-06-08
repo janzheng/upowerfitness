@@ -1,0 +1,306 @@
+---
+layout: framework
+title: upowerfitness slogan
+comments: true
+---
+
+<a id="index-link-top"></a>
+<article class="container" id="index-container" >
+
+
+<div id="index-menu-container" class="bw-stickydiv" data-offset-start="0%" data-offset-stop="0" data-stop-div="index-menu-stop" data-min-width="768">
+<div id="index-menu-floating" class="bw-stickydiv-content menu-list">
+
+<div class="index-menu-smaller" id="index-menu-smaller-smallmenu">
+* "Back to Top":#menu-top-link
+</div>
+
+<div class="index-menu-larger">
+* "introsbbbbbs":#menu-top-link
+* "ux requirements":#index-link-uxreq
+** "objectives":#index-link-uxobj
+** "basic":#index-link-uxbasic
+** "site organization":#index-link-uxsiteorg
+* "wireframes":#index-link-uxwireframes
+** "partials":#index-link-uxtemplates
+** "templates":#index-link-uxtemplates
+** "pages":#index-link-uxtemplates
+** "forms":#index-link-uxtemplates
+** "external":#index-link-uxtemplates
+</div>
+
+</div><!-- end stickydiv-content, menu-list -->
+</div><!-- end menu container -->
+
+
+<div id="index-content">
+
+
+<section class="index-section">
+<article class="index-section-article">
+
+
+h1. Bibble Bobbssle {{site.client}} sadad
+
+h2. {{site.project}}
+
+<div class="index-menu-smaller" id="index-menu-smaller-fullmenu">
+* "intro":#index-link-top
+* "ux requirements":#index-link-uxreq
+** "objectives":#index-link-uxobj
+** "basic":#index-link-uxbasic
+** "site organization":#index-link-uxsiteorg
+** "template list":#index-link-uxtemplates
+</div>
+
+p. The Industrial Solutions site redesign aims to migrate all content to the new Drupal CMS. This redesign utilizes the look and feel of the existing template built for "GE Power Conversion":http://www.gepowerconversion.com GE Power Conversion, with additional requirements to navigation and responsive design.
+
+<div class="list-close">
+* "GE Industrial Solutions (current site)":http://www.geindustrialsolutions.com/
+* "GE Power Conversion (reference site)":http://www.gepowerconversion.com/
+* "GE Digital Energy (reference site)":http://www.gedigitalenergy.com/
+</div>
+</article>
+
+</section>
+
+
+
+<section class="index-section">
+<article class="index-section-article">
+
+<a id="index-link-uxreq"></a>
+
+h2. User Experience Requirements
+
+p. The purposes of this document are to establish client requirements, user experience objectives, site navigation and content architecture, template layout, and overall site behavior. This document helps to establish user experience and site functionality requirements, and to provide guidance and align the stakeholders, the designers, and the development team.
+</article>
+
+
+
+<article class="index-section-article">
+
+<a id="index-link-uxobj"></a>
+
+h3. User Experience Objectives
+
+p. The following section highlights requirements regarding information architecture, interaction design, and technical aspects that affect the user experience. The goals of the redesign are to:
+# To educate visitors about the capabilities, markets, products, and services
+# To allow visitors to easily find products, services, and newsletters
+</article>
+
+
+
+<article class="index-section-article">
+
+<a id="index-link-uxbasic"></a>
+
+h3. Basic Requirements
+
+p. Here are the basic business and layout requirements. Please refer to the Business Requirements section for the full list:
+
+* No Blogs or Forums will be developed for this website
+* Supported features will be limited to Drupal Acquia distribution features, and ubiquitous features of the actual GE website: features that might exists on some rare page will not be implemented if not specified beforehand. 
+* Every feature need to be approved by the development team.
+* Some pages are considered "external applications" and will be integrated via an iframe, unless specified. These external applications are specified.
+* Site, template and content design must follow standard SEO practices
+* The redesign will support a responsive framework for the following breakpoints:
+** *small*: 0px to... *480px*
+** *medium*: 481px to... *767px*
+** *large*: 768px to... *979px*
+** *infinite*: 980px to *infinity*
+
+</article>
+
+
+
+<article class="index-section-article">
+
+<a id="index-link-uxsiteorg"></a>
+
+h3. Site Organization
+
+p. The organization of the redesign will be five levels deep. Each nested section will contain information about specific aspects of that the parent section. The site currently has five major sections: *Products*, *Services*, *Markets*, *Resources*, and *Your Business*. 
+
+Templates will ensure that the navigation of each section stays consistent, and will guide the layout of other non-templated single pages. There will be five general template formats:  
+
+<div class="bw-box-dark span-columns-5">
+
+h3(bw-color-white). Site Summary
+
+{% include _sitemap.html %}
+</div>
+
+
+<div class="span-columns-7">
+<section>
+
+h4. Level 0 "root"
+
+* *Global Landing Page*: This page redirects U.S. and International customers to view the correct language versions of the site. Currently, there is no geo-location-based redirecting planned.
+
+* *Home Page*: This is the main landing page of the Industrial Solutions site. The Home Page lets users access the other major sections of the site.
+
+</section>
+<section>
+
+h4. Level 1 "section landing"
+
+* The section Landing pages shows information related to that section. The Services Landing page for example shows all available services on this page.
+
+</section>
+<section>
+
+h4. Level 2 "section family"
+
+* The Family level of pages indicate smaller pieces of a section. For example, a Services family page would show the Aftermarket Solutions or Product Registrations sections of the Services family.
+
+</section>
+<section>
+
+h4. Level 3 "section category"
+
+* A Section Category would include smaller aspects of a Family. For example, the Markets section has a Commercial family, with very specific categories like a Data Center category.
+
+</section>
+<section>
+
+h4. Level 4 "section individual"
+
+* The individual section shows individual products under a product category, and can show specific individual services, markets or pages under a category.
+
+</section>
+</div>
+
+</article>
+
+
+<article class="index-section-article">
+
+<a id="index-link-uxtemplates"></a>
+
+h3. Template List
+
+p. The visual layout of the site will be based on a general template framework that includes a consistent header, footer, and a content area. Each of the five templates, "root," "section landing," "section family," "section category," and "section individual" will be based on the general template. Other individual page such as the Site Map and Press Room will use the same templating framework. The only page to deviate from the general template is the Global Landing Page. 
+
+Each template will contain a combination of page elements called Partials. The following is a complete list of the partials required: 
+
+
+
+<section>
+<div class="span-columns-6">
+
+<section>
+
+h4. Partials
+*   *Header*
+**    Logo
+**    Dropdown Navigation
+**    Search Bar
+**    Language Chooser?
+
+*   *Footer*
+**    Site Description
+**    Navigation
+
+*   *Advanced Search*
+**    (Not in scope)
+
+*   Side bar *  Links Block
+*   Side Bar *  Custom Block ( Thumbnail, title, text and button )
+*   Side Navigation
+*   Share module 
+**    addthis module
+*   Youtube videoplayer 
+*   Carousel ( flexslider )
+
+</section>
+
+
+<section>
+
+h4. Content Blocks
+
+Forms need to be responsive, mobile-friendly, and flexible
+<div class="list-close">
+*   Static 1 | Header | Text | right Image
+*   Static 2 | Alternating blocks | Text, Image | Image, Text | Etc
+*   Static 3 | Custom ( free* form HTML )
+*   Static 4 | Carousel | custom blocks
+*   Static 5 | Expand Collapses | Image | Text
+*   Static 6 | Url list | Text
+*   Static 7 | Tech Support | Custom List
+*   Static 8 | Multiple images | Sharing Tool | Download Brochure
+*   Static 9 | Your Business Bobs Dilema | Youtube Video | Content
+*   Static 10 | Tabs with custom content
+*   Static 11 | thumbnail | Texte | Diagram ( img )
+*   Static 12 | Tools List
+</div>
+</section>
+
+
+
+<section>
+
+h4. Overlays
+
+External resources brought in with iFrame. On smaller devices overlays link out
+
+*   Overlay
+**    General lightbox overlay with content
+*   Where to buy 
+
+</section>
+</div>
+
+
+
+<div class="span-columns-6">
+<section>
+h4. Template & Unique Pages
+
+*   Level 01: *Root*
+*   Level 02: *Section Landing*
+*   Level 03: *Section Family*
+*   Level 04: *Section Category*
+*   Level 05: *Section Individual*
+*   *Global Landing Page*
+</section>
+
+<section>
+
+h4. Forms
+
+Forms need to be responsive, mobile-friendly, and flexible
+<div class="list-close">
+*    Request Publication Form
+*    Feedback Form
+*    EV Station Form
+*    Receive IEC Form
+*    Publication Request Form
+*    Form Quantum Request Form
+*    Motor Order Form
+*    Request Form
+*    Motor Publication Request Form
+*    Software Sign up Form
+*    Newsletter subscription Form
+*    Request Form
+*    Registration Form
+</div>
+</section>
+</div>
+
+</article>
+
+
+</section>
+
+
+<section class="index-section">
+<div class="bw-stickydiv-stop" id="index-menu-stop"></div>
+</section>
+</div>
+
+
+
+</article>

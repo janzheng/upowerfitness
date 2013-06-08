@@ -1,0 +1,108 @@
+
+// Index
+// This page is for the homepage / first page for the wireframe
+// Many measurement values are derived from base framework variables defined in _framework.scss, as the index page is technically still a framework document
+
+// TODO:
+// - this could be much more than just requirements
+// - add: client folder locations, most current useful files, basecamp, status+project tracking, etc.
+
+
+// General layout for index page
+$index-font-size: $bw-base+1;
+$index-line-height: $index-font-size+9;
+
+.index-paragraph-spacing, %index-paragraph-spacing { margin-bottom: $bw-base/2; }
+
+// Colors
+$index-color-text-link: blue;
+$index-color-text-link-hover: lightblue ;
+
+$index-color-menu-link: $bw-dark-gray;
+$index-color-menu-link-hover: $bw-silver;
+
+
+
+#index-container {
+  @include media($bw-medium-large){margin: $bw-base*2 auto $bw-base*2 auto;}
+  background-color: $bw-white;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 400; 
+  font-size: $index-font-size; 
+  color: $bw-color-text-para; 
+}
+
+#index-menu-container {position: static; @include bw-span-4(6,12,3,3); @include clearfix; height: 1px;}
+#index-menu-floating {
+  position: relative; 
+  @include media($bw-smaller){ width: 100%; top: 0; margin: 0 0 $bw-base*2 0; padding-top: 0; };
+  @include media($bw-medium-large){ margin: 0 0 $bw-base*2 $bw-base*2; top: $bw-base*3; }
+}
+.menu-list {
+  br {display: none} //weird textile bug
+  border: solid 1px $bw-light-gray;
+  background-color: $bw-silver; 
+
+  ul {
+    list-style-type: none;  
+    line-height: $bw-base*2;
+
+    a, a:active, a:visited {color: $index-color-menu-link; text-decoration: none; display: block; padding: $bw-base/2 $bw-base $bw-base/2 $bw-base;}
+    a:hover { color: $index-color-menu-link-hover; }
+    li a:hover { background-color: $bw-dark-gray;}
+
+    ul { margin-left: $bw-base*1.5; border-left: 1px solid $bw-light-gray; padding-left: 0;  }
+    @include clearfix;
+  }
+}
+
+#index-menu-smaller-smallmenu {
+  padding: 0;
+  ul {
+    background-color: rgba(246, 246, 246, 0.9); 
+    
+    a, a:active, a:visited {padding: $bw-base/2 $bw-base/2 $bw-base/2 $bw-base; color: $index-color-menu-link; text-decoration: none; display: block; }
+    a:hover { color: $index-color-menu-link-hover; background-color: $bw-dark-gray; }
+  };
+}
+
+#index-menu-smaller-fullmenu {
+  @extend .menu-list;
+  margin: $bw-base*2 0 $bw-base*2 0;
+  
+  li { padding: 0; list-style-type: none}
+}
+
+.index-menu-smaller { @include media($bw-smaller) { display: block } @include media($bw-larger) { display: none } }
+.index-menu-larger { @include media($bw-smaller) { display: none } @include media($bw-larger) { display: block } }
+
+#index-content {
+  @include media($bw-smaller) {padding: $bw-base*2 $bw-base*2 $bw-base*5 $bw-base*2;}
+  padding: $bw-base/2 $bw-base*2 $bw-base/2 $bw-base*2;
+
+  @include bw-span-4(6,12,9,9); 
+}
+
+// Section / Component layout
+.index-section {
+  // Font and typography
+  p {@extend %fontsans; margin: 0 0 $bw-base 0; line-height: $index-line-height; }
+  h1 {@extend %fontsans; font-size: $bw-base*2.4; font-weight: 300; margin-bottom: $bw-base/2; }
+  h2 {@extend %fontsans; font-size: $bw-base*2; font-weight: 300; margin-bottom: $bw-base/2; }
+  h3 {@extend %fontsans; font-size: $bw-base*1.6; font-weight: 300; margin-bottom: $bw-base/2; }
+  h4 {@extend %fontsans; font-size: $bw-base*1.4; font-weight: 300; margin-bottom: $bw-base/2; }
+
+  & li {padding: $bw-base*0.25 $bw-base*0.25 $bw-base $bw-base; li {padding: $bw-base*0.25 $bw-base*0.25 0 $bw-base*2; list-style-type:lower-alpha; } }
+
+  a, a:active, a:visited {color: $index-color-text-link; text-decoration: none; }
+  a:hover {color: $index-color-text-link-hover; }
+  @include bw-span-4(6, 12, 12, 12);
+}
+
+.list-close ul li {padding: $bw-base*0.25 $bw-base*0.25 $bw-base*0.25 $bw-base; }
+
+article section { margin: $bw-base 0 $bw-base 0 }
+
+.index-section-article { margin: $bw-base*2 0 $bw-base 0; }
+.index-mono {@extend %fontmono}
+

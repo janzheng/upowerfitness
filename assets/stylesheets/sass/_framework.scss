@@ -1,0 +1,104 @@
+
+// Framework SCSS
+// everything related to the menu and non-wireframe code here. These should not interfere with wireframe code
+// includes menu and about-page styles
+// bw- stands for the name of the framework, BarbWire (barbwire.github.com)
+
+// sets the entire framework w/o resorting to tricky HTML or CSS, This is essentially the canvas color
+
+html {
+  @include media($bw-smaller){-webkit-text-size-adjust: none; /* Prevent font scaling in landscape */};
+    
+}
+
+body {background-color: $bw-color-bg;}
+
+// Selection behavior - affects entire site
+::-moz-selection{ background: $bw-highlight; color:$bw-highlight-text; text-shadow: none; }
+::selection { background:$bw-highlight; color:$bw-highlight-text; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: $bw-highlight; }
+
+
+// links (top breadcrumb, title area, and pagelist), 
+.menu-link, .menu-link:active, .menu-link:visited {color: $bw-color-text-link; text-decoration: underline;}
+.base-link, .base-link:active, .base-link:visited {color: $bw-color-text-link;  text-decoration: none; }
+.menu-link:hover, .base-link:hover {color: $bw-color-text-link-hover; text-decoration: none; @include ease-transition(100ms);}
+
+// Responsive layout for all menu items
+.menu-content {
+   @include outer-container;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+
+   //top menu
+   #menu-name {@include bw-span(5, 11, 11); }
+   #menu-button-top {@include bw-span(1, 1, 1); }
+
+   //bottom menu
+   #menu-bottom {
+      @include clearfix;
+      @include media($bw-small){padding-left: $bw-base; padding-right: $bw-base;}
+      @include media($bw-large){padding: auto 0 auto 0;}
+   }
+   #menu-bottom-left {@include bw-span(6, 5, 5); margin-top: $bw-base;}
+      #bw-notes {margin-top: $bw-base;}
+   #menu-bottom-right {@include bw-span(6, 7, 7); margin-top: $bw-base;}
+      #menu-client-name {@include fill-parent; }
+      #menu-project-name {@include fill-parent; }
+
+
+// general menu styles
+.menu-item {
+   color: $bw-color-text;
+   padding: $bw-height-std/2 $bw-height-std $bw-height-std/2 $bw-height-std;
+   min-height: auto;
+}
+
+#menu-top {width: 100%; background-color: $bw-color-bg; border-bottom: $bw-base/2 solid $bw-color-highlight; 
+   font-weight: 400;
+   font-size: $bw-base;
+   @include clearfix;}
+
+   // top menu styles
+   #menu-name {background-color: $bw-color-btn;}
+   #menu-button-top {display: block; background-color: $bw-color-btn;}
+   #menu-triangle {
+      text-align: center;
+      position: relative;
+      left: 50%;
+      margin-left: -6px; margin-top: 6px;
+      @include triangle(12px, #ddd, down);
+   }
+   #menu-button-top:hover {background-color: $bw-color-btn-hvr; @include ease-transition(200ms);}
+
+
+// bottom menu styles
+#menu-bottom {
+   width: 100%;
+   background-color: $bw-color-bg;
+   border-top: $bw-height-std/2 solid $bw-color-highlight;
+   padding-bottom: $bw-height-std;
+}
+   #menu-bottom-left {
+      font-weight: 300; 
+      padding: $bw-base/2 $bw-base $bw-base/2 0;
+      color: $bw-color-text;
+   }
+   #menu-client-name {font-size: $bw-base*3;}
+   #menu-project-name {font-size: $bw-base*2; padding-top: 0}
+   #menu-legal {padding: $bw-base 0 $bw-base 0; color: $bw-color-text*0.6; }
+   #menu-pagelist {padding-bottom: $bw-base*2; background-color: $bw-color-btn-dark; }
+   #menu-pagelist-title {font-size: $bw-base*1.7; padding-bottom: $bw-base*0.6; font-weight: 300}
+
+   #bw-comments {
+      margin-top: $bw-base;
+      background-color: white;
+      padding: $bw-base*2;
+      height: 305px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+   }
+
+
+// pagelist located in the _pagelist.scss partial

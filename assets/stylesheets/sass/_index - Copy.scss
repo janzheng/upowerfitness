@@ -1,0 +1,49 @@
+
+// Index
+// This page is for the homepage / first page for the wireframe
+// Many measurement values are derived from base framework variables defined in _framework.scss, as the index page is technically still a framework document
+
+
+// General layout for index page
+$index-font-size: $bw-base+1;
+$index-line-height: $index-font-size+9;
+
+// Colors
+$index-color-text-link: blue;
+$index-color-text-link-hover: slateblue;
+
+
+
+// Links
+.index-link, .index-link:active, .index-link:visited {color: $index-color-text-link; }
+.index-link:hover {color: $index-color-text-link-hover; }
+
+
+#content-index {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 400; 
+  font-size: $index-font-size; 
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: $bw-base*2 0 $bw-base*2 0;
+  color: $bw-color-text-para; 
+}
+#container-index {
+  background-color: $bw-white;
+  padding: $bw-base/2 $bw-base*2 $bw-base/2 $bw-base*2;
+  // margin: $bw-height-std/2 0 $bw-height-std/2 0;
+}
+
+// Font and typography
+.index-p {@extend %fontsans; margin: $bw-base 0 $bw-base 0; line-height: $index-line-height; }
+.index-h1 {@extend %fontsans; font-size: $bw-base*2.4; font-weight: 300;}
+.index-h2 {@extend %fontsans; font-size: $bw-base*2; font-weight: 300;}
+.index-h3 {@extend %fontsans; font-size: $bw-base*1.6; font-weight: 300; padding: $bw-base*2 0 0 0}
+
+.index-list li {margin-bottom: $bw-base*0.5; }
+
+
+// Section / Component layout
+.index-section {@include bw-span(6, 12, 9); margin: $bw-base*1.5 0 $bw-base*1.5 0; }
+
+.index-mono {@extend %fontmono}
+
