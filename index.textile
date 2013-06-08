@@ -60,7 +60,7 @@ We are the first step to helping you find and maintain your inner power and moti
 
 <div class="section-trio mobile-open" id="tri1"> 
 
-!http://placehold.it/80x80!
+<notextile><!-- !http://placehold.it/80x80! --></notextile>
 
 h2. Conditioning
 
@@ -71,7 +71,7 @@ p. We condition you so your heart pumps harder and your lungs breathe deeper, so
 </div>
 <div class="section-trio mobile-open" id="tri2"> 
 
-!http://placehold.it/80x80!
+<notextile><!-- !http://placehold.it/80x80! --></notextile>
 
 h2. Meal Tracking
 
@@ -81,7 +81,7 @@ p. The say fitness is 70% nutrition and 30% gym. We watch what you eat, and ease
 </div>
 <div class="section-trio mobile-open" id="tri3"> 
 
-!http://placehold.it/80x80!
+<notextile><!-- !http://placehold.it/80x80! --></notextile>
 
 h2. Strength Training
 
@@ -150,7 +150,7 @@ Our classes are kept small so we can attend to each student's workout. We focus 
 
 <div class="section-trio classes-trio mobile-open"> 
 
-!http://placehold.it/80x80!
+<notextile><!-- !http://placehold.it/80x80! --></notextile>
 
 h2. U-Blast
 
@@ -188,7 +188,7 @@ p(time). 10am - 11am
 </div>
 <div class="section-trio classes-trio mobile-open"> 
 
-!http://placehold.it/80x80!
+<notextile><!-- !http://placehold.it/80x80! --></notextile>
 
 h2. U-Spin
 
@@ -220,7 +220,7 @@ p(time). 9am - 10am
 </div>
 <div class="section-trio classes-trio mobile-open"> 
 
-!http://placehold.it/80x80!
+<notextile><!-- !http://placehold.it/80x80! --></notextile>
 
 h2. U-Spin + Body
 
