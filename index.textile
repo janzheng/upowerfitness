@@ -303,7 +303,7 @@ After some time and a lot of discussion with family and friends, the concept of 
 
 <section class="container-section" id="bionoel">
 
-p(quote). &ldquo;Noel's Pull-Quote&rdquo;
+p(quote). &ldquo;Noel traded stilettos for sneakers to kick-start her dream of motivating others&rdquo;
 
 <notextile><img src="assets/images/trainer21.jpg" id="noelimg" alt=""></notextile>
 
