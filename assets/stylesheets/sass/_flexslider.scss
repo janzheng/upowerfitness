@@ -65,14 +65,14 @@ html[xmlns] .slides {display: block;}
    width: $base*2; height: $base; 
    display: block; 
    padding: 0 $base*4 0 $base*4;
-   background: #666; background: rgba(0,0,0,0.4); cursor: pointer; 
+   background: #666; background: rgba(100,100,100,0.4); cursor: pointer; 
    border: 1px solid rgba(250, 250, 250, 0.66);
    text-indent: -9999px; 
    // @extend %shadow-gray;
 }
 
 .flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.8); }
-.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.7); cursor: default; }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}

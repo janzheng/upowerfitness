@@ -155,7 +155,7 @@
 
       @include media($small-only){
          & > p{@include span-columns(1); margin: 0; }
-         h2 {@include span-columns(5); font-size: $base*1.5; font-weight: 400}
+         h2 {@include span-columns(5); display: block; font-size: $base*1.5; font-weight: 400}
       }
    }
 
