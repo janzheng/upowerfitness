@@ -195,7 +195,7 @@ h2. U-Spin
 <div class="mobile-hide">
 p(class-time). 45 minutes
 
-p(class-desc). Fun and energetic class of 45 minutes of spin cardio including sprints, heavy hill climbs, seated climbs and running jogs, to a blend of energetic, fun of music.
+p(class-desc). Fun and energetic class of 45 minutes of spin cardio including sprints, heavy hill climbs, seated climbs and running jogs, to fun, energetic music.
 
 <section class="container-section classes-prices" >
 table(classes-table).
