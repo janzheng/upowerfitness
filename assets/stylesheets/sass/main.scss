@@ -1,8 +1,6 @@
 
-// for small device, content top padding is too large; show upower fitness light overlay over picture; light caption at bottom?
-// find or make icons for the 80x80 placeholders
-// mobile: open/close (intro trio) (training) (classes)
-// use flexslider for tabs
+// clean up font stacks
+// redirect page from dropbox
 
 // Questions / Info
 // - how do you set up assessment, schedule personal training?
@@ -124,7 +122,7 @@
       float: none; margin-top: $base;
       @include span-4(6,10,7,9); 
       // float: none !important; 
-      @extend %roboto; font-weight: 300; font-size: $font-size-paragraph;  
+      @extend %open-sans; font-weight: 300; font-size: $font-size-paragraph;  
    }
 
    table {
@@ -151,15 +149,22 @@
    .section-trio {
       @extend %padding-content-item; 
       @include span-4(6,4,4,4); float: left !important; float: none;
-      p {padding: 0 !important; @include span-4(6,12,12,12); }
-
-      @include media($small-only){
-         & > p{@include span-columns(1); margin: 0; }
-         h2 {@include span-columns(5); display: block; font-size: $base*1.5; font-weight: 400}
+      p {padding: 0 !important; @include span-4(6,12,12,12); }  
+      h2 {
+         @include media($small-only){
+            & > p{@include span-columns(1); margin: 0; }
+            h2 {@include span-columns(5); display: block; opacity: 1; font-size: $base*1.5; font-weight: 400}
+         }
       }
    }
 
+}
 
+// used as section titles
+h4 {
+   @extend %open-sans; color: $medium-gray;
+   font-size: $base; font-weight: 700; margin-top: $base*0.8;
+   text-transform: uppercase;
 }
 
 
@@ -186,7 +191,7 @@
             @extend %padding-content-item; 
             float: none; margin-top: $base;
             @include span-4(6,8,6,4); float: none !important; 
-            @extend %roboto; font-weight: 300; font-size: $font-size-paragraph;
+            @extend %open-sans; font-weight: 300; font-size: $font-size-paragraph;
             // color: white; background-color: rgba(109, 152, 71, 0.84);
             @extend .glassdark;
             color: $silver;

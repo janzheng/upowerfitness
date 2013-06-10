@@ -97,13 +97,10 @@ $highlight-text: #FFFBDB;
 }
 
 // FONT STACKS
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900,100);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
 %raleway {font-family: 'Raleway', sans-serif;}
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
-%roboto {font-family: 'Roboto', serif;}
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700);
 %open-sans {font-family: 'Open Sans', serif;}
 
 

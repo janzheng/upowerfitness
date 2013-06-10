@@ -1,6 +1,6 @@
 ---
 layout: framework
-title: upower fitness - harnessing the power of you.
+title: upower fitness - a personal training and gym concept on the edge of Piedmont Park, Atlanta.
 comments: false
 ---
 <div id="index-container">
@@ -100,6 +100,8 @@ p(mobile-hide). We build your core strength so you can do all the things you've 
 <div class="container" id="training-content" >
 <section class="container-section" >
 
+h4. training
+
 h1(green). Take Control with Personal Training
 
 p(section-intro soft). Our personal training sessions include cardio, strength, and meal tracking. Each session combines both cardio and strength for a high interval workout.
@@ -139,6 +141,8 @@ table(training-table).
 <article class="goto" id="classes">
 <div class="container" id="classes-content" >
 <section class="container-section" >
+
+h4. classes
 
 h1(green). Come Strong, Leave Empowered
 
@@ -264,13 +268,15 @@ p(time). 7am - 8am
 <div class="container" id="about-content" >
 <section class="container-section" id="about-1">
 
+h4. about
+
 h1(green). Humble Beginnings
 
 p(soft). For most people, losing weight is not easy. It takes dedication and permanent changes most people are unwilling to make. Diets, boot camps, and other solutions intended to "lose weight quickly" are neither sustainable nor realistic. 
 <br />
 In reality, eating a healthy diet and staying active requires a change in lifestyle that is neither drastic, nor hard to maintain. But it does take hard work and commitment.
 <br />
-upower fitness was founded on the idea that - if the desire is there, we can make it happen. We take a unique look at each client, and crafts a plan that helps them attain the goal that's right for the individual.
+upower fitness was founded on the idea that if you truly desire change in your life, we can make it happen. Because each individual's needs are unique, we work with each person to craft a unique plan - a plan that's right for their goals.
 </section>
 <section class="container-section" id="about-2">
 
