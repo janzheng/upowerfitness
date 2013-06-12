@@ -15,14 +15,10 @@ comments: false
 <br />
 <br />
 <br />
-<br />
 
 h1(green). A Page Unfound
 
-p(section-intro orange). We're not on the main site anymore.
-<br/>
-You have stumbled across this page in error. Please go back to the main site!
-"Click here to go back":http://upowerfitness.com
+p(section-intro orange). We've stumbled into the unknown, and "would like to find our way back home":http://upowerfitness.com
 
 </section>
 
