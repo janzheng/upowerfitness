@@ -12,6 +12,11 @@ comments: false
 
 <section class="container-section" id="intro-section">
 
+<br />
+<br />
+<br />
+<br />
+
 h1(green). A Page Unfound
 
 p(section-intro orange). We're not on the main site anymore.
