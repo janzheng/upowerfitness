@@ -1,0 +1,28 @@
+---
+layout: framework
+title: upower fitness - a personal training and gym concept on the edge of Piedmont Park, Atlanta.
+comments: false
+---
+<div id="index-container">
+
+
+<article id="intro" class="goto">
+<div id="mobile-banner"></div>
+
+
+<section class="container-section" id="intro-section">
+
+h1(green). A Page Unfound
+
+p(section-intro orange). We're not on the main site anymore.
+<br/>
+You have stumbled across this page in error. Please go back to the main site!
+"Click here to go back":http://upowerfitness.com
+
+</section>
+
+</div>
+</article>
+
+<div>
+<!-- end index-container -->
