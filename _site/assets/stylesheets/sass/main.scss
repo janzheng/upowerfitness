@@ -13,14 +13,15 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
-@import 'reset';            //reset and base settings
-@import 'common';           //common re-usable components specific to wireframe
+@import 'z-reset';           //reset and base settings
 
-@import 'flexslider';
+@import 'design';           //common re-usable components specific to wireframe
+
+// External Plugins
+@import 'p-flexslider';
 
 .floatwrapper {position: fixed; @include span-4(6, 12, 12, 12); z-index: 99999;}
 .container {@include outer-container; }
-
 
 #header-container {
    @extend %padding-content; padding-bottom: $base*2;
