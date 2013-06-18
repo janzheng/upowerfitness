@@ -1,14 +1,13 @@
 
 // ************************************************************
-// Everything in this section is framework-specific. Once this file grows large, framework-code will be broken off to bw-script.js
+// JS Snippets
+// ************************************************************
+
+
 $(document).ready(function() {
 
-  // $('.flexslider').flexslider({
-  //   animation: "slide",
-  //   slideshow: false,
-  //   itemWidth: 2000
-  // });
-
+// ************************************************************
+// Flex Slider
   $('.flexslider').flexslider({
     animation: "fade",
     touch: true,
@@ -25,33 +24,48 @@ $(document).ready(function() {
 // ************************************************************
 
 // ************************************************************
-// Button show / hide functionality
-//initially hide all collapsible areas (specified in CSS)
-// $(".mobile-hide").hide();
+// Reveal
+// Container that shows or hides its content based on input
 
-$(".mobile-open").click(function() {
+// .reveal-container .reveal-btn-container
+//    .reveal-btn
+//    .reveal-content
+
+// Clicking on the reveal-btn or reveal-btn-container will show or hide the content within .reveal-content
+// you can create multiple .reveal-btns, like an Open and a Close button
+
+// In the following example, these are used for responsively hiding sections which would be too big for a mobile screen
+$(".reveal-btn").click(function() {
   var width = $(window).width();
-  // if( width <= 480 ) {$(this).find('.mobile-hide').slideToggle();}
+  if( width <= 480 ){toggleMobile($(this).parent());}
+});
+
+$(".reveal-btn-container").click(function() {
+  var width = $(window).width();
   if( width <= 480 ){toggleMobile(this);}
 });
 
-
 function toggleMobile(input){
-  var state = $(input).find('.mobile-hide').css('display');
+  var state = $(input).find('.reveal-content').css('display');
   
   if (state == 'none'){
+    // if content is hidden
     showMobile(input);
-  } else
-  { hideMobile(input); }
+  } else { 
+    // if content is revealed
+    hideMobile(input); 
+  }
 }
+
 function showMobile(input) {
-    $(input).find('.mobile-hide').css('display', 'block');
+    $(input).find('.reveal-content').css('display', 'block');
 }
 
 function hideMobile(input) {
-    $(input).find('.mobile-hide').css('display', 'none');
+    $(input).find('.reveal-content').css('display', 'none');
 }
-// End button show / hide
+
+// End Reveal
 // ************************************************************
 
 
