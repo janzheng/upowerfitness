@@ -73,14 +73,14 @@ function hideMobile(input) {
 // ************************************************************
 // Goto-Highlight / Nav highlighting
 
-  $(function() {
+  $(function() { 
     $('.goto')
       .waypoint(function(direction) {
         var $links = $('a[href="#' + this.id + '"]');
         if(direction === 'down') {
           $('.menu-selected').removeClass('menu-selected');
           $links.addClass('menu-selected', direction === 'down');
-          console.log("Entering: " + direction + " @ " + this.id);
+          // console.log("Entering: " + direction + " @ " + this.id);
         }
       },{ offset: 100 })
       .waypoint(function(direction) {
@@ -88,7 +88,7 @@ function hideMobile(input) {
         if(direction === 'up') {
           $('.menu-selected').removeClass('menu-selected');
           $links.addClass('menu-selected', direction === 'up');
-          console.log("(up) Going: " + direction + " @ " + this.id);
+          // console.log("(up) Going: " + direction + " @ " + this.id);
         }
       },{ offset: function() {
           return -$(this).height();
