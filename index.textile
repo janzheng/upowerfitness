@@ -109,23 +109,23 @@ Costs are listed per person, per session.
 <section class="content" id="training-prices">
 
 table(training-table).
-|_\3(td-header).  One on One Training                       |
-|(td-cat).           |_(td-sub).60 min.  |_(td-sub).30 min. |
-|(td-cat).  1 Pack   |$65          |$45                     |
-|(td-cat). 10 Pack   |$55          |                        |
-|(td-cat). 20 Pack   |$45          |$35                     |
-|(td-cat). 30 Pack   |$35          |$25                     |
-|(td-cat). 40 Pack   |$25          |                        |
+|_\4(td-header).  Personal Training                                                         |
+|_\4(td-rate).  Hourly rates:                                                               |
+|(td-cat).           |_(td-sub).60 min.   |_(td-sub).45 min.       |_(td-sub).30 min.       |
+|(td-cat). Single    |$75                 |$65                     |$55                     |
+|(td-cat). 10 Pack   |$65                 |$55                     |                        |
+|(td-cat). 15 Pack   |                    |                        |$45                     |
+|(td-cat). 20 Pack   |$55                 |$45                     |                        |
+|(td-cat). 25 Pack   |                    |                        |$35                     |
 
 table(training-table).
-|_\3(td-header).  u-Buddy Training                    |
-|(td-cat).           |_(td-sub).2 Person  |_(td-sub).3 Person  |
-|(td-cat).  1 Pack   |$32.50         |$22.50          |
-|(td-cat). 10 Pack   |$27.50         |$19.00          |
-|(td-cat). 20 Pack   |$22.50         |$15.00          |
-|(td-cat). 30 Pack   |$17.50         |$12.00          |
-|(td-cat). 40 Pack   |$12.50         |$9.50           |
-|\3(td-note). note: all u-buddy classes last one hour          |
+|_\2(td-header).  u-Buddy Personal Training (2 people)                   |
+|_\2(td-rate).  $37.50 per person, per hour                                 |
+|(td-cat).           |_(td-sub).2 Person  |
+|(td-cat).  Single   |$37.50         |
+|(td-cat). 10 Pack   |$32.50         |
+|(td-cat). 20 Pack   |$27.50         |
+|\2(td-note). note: all u-buddy classes last one hour          |
 
 </section>
 
@@ -133,133 +133,6 @@ table(training-table).
 
 </div>
 </article>
-
-
-<article class="goto" id="classes">
-<div class="container" >
-<section class="content" >
-
-h3. classes
-
-h1(green). Come Strong, Leave Empowered
-
-p(section-intro cloud). We also teach group cardio and conditioning classes. 
-<br/>
-Our classes are kept small so we can attend to each student's workout. We focus on strength and high interval training, while emphasizing form and control.
-
-
-
-<div class="section-trio classes-trio reveal-btn-container"> 
-
-<notextile><!-- !http://placehold.it/80x80! --></notextile>
-
-h2. U-Blast
-
-<div class="reveal-content">
-p(class-time). 50 minutes
-
-p(class-desc). Combining strength and cardio with interval training, you will spend 25 minutes inside the studio with strength training and 25 minutes of cardio in the park.
-
-<section class="content classes-prices" >
-table(classes-table).
-|(td-cat). 1 Pack   |$20  |
-|(td-cat). 5 Pack   |$15  |
-|(td-cat). 20 Pack  |$10  |
-</section>
-
-<div class="day-schedule">
-p(day). Tuesday
-
-p(time). 7am - 8am
-</div>
-
-<div class="day-schedule">
-p(day). Thursday
-
-p(time). 5:30pm - 6:30pm
-</div>
-
-<div class="day-schedule">
-p(day). Saturday
-
-p(time). 10am - 11am
-</div>
-
-</div>
-</div>
-<div class="section-trio classes-trio reveal-btn-container"> 
-
-<notextile><!-- !http://placehold.it/80x80! --></notextile>
-
-h2. U-Spin
-
-<div class="reveal-content">
-p(class-time). 45 minutes
-
-p(class-desc). Fun and energetic class of 45 minutes of spin cardio including sprints, heavy hill climbs, seated climbs and running jogs, to fun, energetic music.
-
-<section class="content classes-prices" >
-table(classes-table).
-|(td-cat). 1 Pack   |$20  |
-|(td-cat). 10 Pack  |$10  |
-|(td-cat). 15 Pack  |$10  |
-</section>
-
-<div class="day-schedule">
-p(day). Monday
-
-p(time). 6pm - 6:45pm
-</div>
-
-<div class="day-schedule">
-p(day). Friday
-
-p(time). 9am - 10am
-</div>
-
-</div>
-</div>
-<div class="section-trio classes-trio reveal-btn-container"> 
-
-<notextile><!-- !http://placehold.it/80x80! --></notextile>
-
-h2. U-Spin + Body
-
-<div class="reveal-content">
-
-p(class-time). 1 hour
-
-p(class-desc). The best of both worlds, this class combines both spin and strength training for a tough one-hour workout, challenging both  your strength, endurance and cardio.
-
-<section class="content classes-prices" >
-table(classes-table).
-|(td-cat). 1 Pack   |$20  |
-|(td-cat). 5 Pack  |$15  |
-|(td-cat). 10 Pack  |$10  |
-</section>
-
-
-
-
-
-<div class="day-schedule">
-p(day). Wednesday
-
-p(time). 7am - 8am
-</div>
-
-
-</div>
-
-</section>
-
-{% include assessments.html %}
-
-</div>
-</article>
-
-
-
 
 
 
@@ -303,25 +176,75 @@ p(trainer-para). Babette Lombardo, the founder and head trainer of upower Fitnes
 Babette grew up in a family that always encouraged her to follow her passion and work as hard as she could at everything she did. Her passion for tennis won her an full athletic scholarship at Jacksonville State University, where she earned her Bachelor of Arts degree. Moving to Atlanta in 2008 after graduation, she worked several years in sports marketing. While her love of athletics never waned and her desire to help others in some meaningful way continued to grow stronger, Babette began to realize her true calling. As her charitable work increased with Kate's Club and her fitness and cycle class instruction took off, Babette searched for ways to combine her desire to help with her passion for healthy living. 
 <br />
 After some time and a lot of discussion with family and friends, the concept of upower Fitness was born. Babette is eager to share her wealth of information about living a healthy, balanced life while simultaneously giving back to the community.
-
+<br >
+*Contact*
+Email: "Babette@upowerfitness.com":mailto:Babette@upowerfitness.com
+Phone: "901-826-5678":tel:1-901-826-5678 
 </div>
 </section>
 
 
-<section class="content" id="bionoel">
+<section class="content" id="biomike">
 
-p(quote). &ldquo;Noel traded stilettos for sneakers to kick-start her dream of motivating others&rdquo;
+p(quote). &ldquo;I don't train everyone without finding out that we are a perfect fit&rdquo;
 
-<notextile><img src="assets/images/trainer21.jpg" id="noelimg" alt=""></notextile>
+<notextile><img src="assets/images/mike_banks.jpeg" id="mikeimg" alt=""></notextile>
 
-p(trainer2). Noel Milanese
-%(qual)NASM Certified%
+p(trainer2). Mike Banks
+%(qual)American Council of Exercise Group Fitness Since 1995 
+Les Mills Certified BODYPUMP Instructor Since 2000
+Aerobics and Fitness Association of America Group Fitness Since 2006
+Aerobics and Fitness Association of America Personal Trainer Since 2007
+National Academy of Sports Medicine Certified Personal Trainer Since 2011
+ZUMBA since 2012%
 
-p(trainer-para). Upon joining upower fitness, Noel traded stilettos for sneakers to kick-start her dream of motivating others to live fit and healthy lifestyles.
-<br />
-Noel was first inspired by a fitness class at a local gym and was instantly drawn to the world of fitness. As a child who struggled with eating disorders and health issues, Noel realized that the importance of a healthy life starts at a young age. Her goals are to teach people how to eat a clean, healthy diet and how to exercise so that people develop healthy habits. Noel is certified through NASM and has published an e-book cookbook. 
-<br />
-upower is the perfect place for Noel to teach others that they have the power to make those positive changes in their lives. Noel is motivated to helping clients such as busy moms, dads, kids and everyone in between realize that small steps lead changes in lifestyle habits.
+p(trainer-para). I don't train everyone with out finding out that we are a perfect fit. Personal Trainers come a dime a dozen but a relationship with two people is priceless and doesn't come easy. 
+<br >
+I ask for a lot in/out of our sessions but I guarantee results. I Love fitness from point A to Z.
+<br >
+*Specializations*
+Bodybuilding & Physique Training 
+Sports and Fitness Training
+Muscle, Strength and Endurance Training
+Weight Loss Management
+<br >
+*Contact*
+Email: "Mike4fitness@gmail.com":mailto:Mike4fitness@gmail.com
+Phone: "404-922-1312":tel:1-404-922-1312
+</div>
+</section>
+
+
+<section class="content" id="biotosha">
+
+p(quote). &ldquo;Tosha’s coaching style is straight forward, challenging and fun&rdquo;
+
+<notextile><img src="assets/images/tosha_bailey.jpg" id="toshaimg" alt=""></notextile>
+
+p(trainer3). Tosha Bailey
+%(qual)NASM Certified 
+TRX (level 1)
+American Red Cross (CPR/First Aid)
+New Leaf (Metabolic Specialist)
+SCW (Lifestyle and Behavior Coaching)%
+
+p(trainer-para). Tosha Bailey coaches busy professionals on how to transform their health by getting them:
+<br >
+- Leaner while still eating their favorite foods, attending social outings and spending less time at the gym. 
+- Better by increasing their energy, improving their mobility, building their confidence, while changing their relationship with food and their body. 
+- Stronger physically and mentally, so not only can they handle their next workout, but also tackle whatever life throws their way. 
+<br >
+Tosha has been a full time coach in the fitness industry since 2004. She has earned certifications through NASM (Certified Personal Trainer), TRX (level 1), American Red Cross (CPR/First Aid), New Leaf (Metabolic Specialist), SCW (Lifestyle and Behavior Coaching) and is working towards her Nutrition Coaching Certification through Precision Nutrition. 
+<br >
+Tosha wasn’t always on the healthy living train. Despite growing up with active parents who were healthy eaters, her love of sweets, not so healthy foods and not being active was a little stronger. It wasn’t until being in anunhappy marriage did she go out for her first run at 23, when her best friend forced her out of the house. From her workouts she gained physical and mental strength and the confidence to end her marriage. Tosha then decided that she wanted to share with others what weight training with a side order of cardio could do for a person. Since she doesn’t believe in the four-letter word, (d-i-e-t) and bland food just isn’t an option, she taught herself how to cook using quality ingredients to create angelic meals that taste sinful! 
+<br >
+Tosha’s coaching style is straight forward, challenging and fun, meeting you where you currently are in your health journey and getting you where you want to be. 
+<br >
+If you’re looking to transform your health without giving up everything you enjoy, contact Tosha Bailey at: 404-558-7854 or tosha@toshabaileyfitness.com moms, dads, kids and everyone in between realize that small steps lead changes in lifestyle habits.
+<br >
+*Contact*
+Email: "tosha@toshabaileyfitness.com":mailto:tosha@toshabaileyfitness.com
+Phone: "404-558-7854":tel:1-404-558-7854
 
 </div>
 </section>

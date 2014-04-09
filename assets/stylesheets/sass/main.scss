@@ -157,6 +157,7 @@
       @include media($medium-max){margin-top: $base}
       .td-header {@extend .orange; @extend %padding-content-item; text-align: left; @extend h2; width: $base*30; }
       .td-sub {@extend h2; font-size: $base*1.4; padding: $base $base $base $base; font-weight: 700; text-align: right; }
+      .td-rate {@extend .td-sub; text-align: left; font-weight: 300}
       .td-cat { text-align: right; background-color: rgba(120,120,120,0.11); }
       tr { background: rgba(250,250,250,0.4);}
       td { padding: $base*0.25 $base $base*0.25 $base; text-align: right;}
@@ -261,9 +262,15 @@
    .trainer{@include span-all(6,8,8,8); @extend .green; font-size: $base*2.1; line-height: $base*0.98; margin-top: 0;  margin-bottom: 0; @extend %padding-content-item;}
       .qual{font-size: $base*0.72; margin-top: $base*0.9; display:block; }
    
-   #noelimg{@include span-all(6,8,6,5);}
-   .trainer2{@include span-all(6,12,5,6); @extend .green; font-size: $base*2.1; line-height: $base*0.98; margin-top: 0;  margin-bottom: 0; @extend %padding-content-item;}
+   #mikeimg{@include span-all(3,3,3,3);}
+   .trainer2{@include span-all(6,8,8,8); @extend .green; font-size: $base*2.1; line-height: $base*0.98; margin-top: 0;  margin-bottom: 0; @extend %padding-content-item;}
   
+
+   #toshaimg{@include span-all(3,3,3,3);}
+   .trainer3{@include span-all(6,8,8,8); @extend .green; font-size: $base*2.1; line-height: $base*0.98; margin-top: 0;  margin-bottom: 0; @extend %padding-content-item;}
+  
+
+
    .trainer-para{@include span-all(6,9,9,6); @extend %padding-content-item;}
 }
 
