@@ -120,11 +120,11 @@ table(training-table).
 
 table(training-table).
 |_\2(td-header).  u-Buddy Personal Training (2 people)                   |
-|_\2(td-rate).  $37.50 per person, per hour                                 |
-|(td-cat).           |_(td-sub).2 Person  |
-|(td-cat).  Single   |$37.50         |
-|(td-cat). 10 Pack   |$32.50         |
-|(td-cat). 20 Pack   |$27.50         |
+|_\2(td-rate).  $75 per 2 people, one hour                                 |
+|(td-cat).           |_(td-sub).2 People  |
+|(td-cat).  Single   |$75.00         |
+|(td-cat). 10 Pack   |$65.00         |
+|(td-cat). 20 Pack   |$55.00         |
 |\2(td-note). note: all u-buddy classes last one hour          |
 
 </section>
@@ -179,7 +179,7 @@ After some time and a lot of discussion with family and friends, the concept of 
 <br >
 *Contact*
 Email: "Babette@upowerfitness.com":mailto:Babette@upowerfitness.com
-Phone: "901-826-5678":tel:1-901-826-5678 
+Phone: " (901) 826-5678":tel:1-901-826-5678 
 </div>
 </section>
 
@@ -210,7 +210,7 @@ Weight Loss Management
 <br >
 *Contact*
 Email: "Mike4fitness@gmail.com":mailto:Mike4fitness@gmail.com
-Phone: "404-922-1312":tel:1-404-922-1312
+Phone: " (404) 922-1312":tel:1-404-922-1312
 </div>
 </section>
 
@@ -244,7 +244,7 @@ If you’re looking to transform your health without giving up everything you en
 <br >
 *Contact*
 Email: "tosha@toshabaileyfitness.com":mailto:tosha@toshabaileyfitness.com
-Phone: "404-558-7854":tel:1-404-558-7854
+Phone: " (404) 558-7854":tel:1-404-558-7854
 
 </div>
 </section>
